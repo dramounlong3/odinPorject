@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-1 {
+  background-color: #1f2937;
+}
+
+.container-1 .first-part {
+  margin: 0rem 10rem;
+  padding-top: 2.5rem;
+}
+
+.container-1 .first-part .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-1 .first-part .header .logo .logo-text img {
+  width: 50px;
+  height: 50px;
+}
+
+.container-1 .first-part .header .logo,
+.container-1 .first-part .header .link {
+  color: red;
+}
+
+.container-1 .first-part .header .logo ul,
+.container-1 .first-part .header .link ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  min-width: 30rem;
+  padding-left: 10rem;
+}
+
+.container-1 .first-part .header .logo ul a,
+.container-1 .first-part .header .link ul a {
+  margin-left: 2.5rem;
+  font-size: 1.125rem;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.container-1 .main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5rem 0rem;
+  margin-bottom: 0;
+  padding-bottom: 5rem;
+}
+
+.container-1 .main-title .title-left {
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+.container-1 .main-title .title-left .main-text {
+  font-size: 3rem;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.container-1 .main-title .title-left .main-content {
+  font-size: 1.125rem;
+  max-width: 45rem;
+  color: #e5e7eb;
+}
+
+.container-1 .main-title .title-left .signup {
+  background-color: #3882f6;
+  font-size: 1.25rem;
+  color: #e5e7eb;
+  margin-top: 0.5rem;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.container-1 .main-title .title-right {
+  min-width: 20rem;
+  height: 20rem;
+  background-color: gray;
+}
+
+.container-1 .main-title .title-right img {
+  width: 30rem;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 10rem 0rem 10rem;
+}
+
+.container-2 .second-title {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.container-2 .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 3rem 0rem 5rem 0rem;
+}
+
+.container-2 .img-container .img-box {
+  margin: 1rem 1rem;
+  width: 200px;
+}
+
+.container-2 .img-container .img-box .img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container-2 .img-container .img-box .img img {
+  width: 200px;
+  height: 200px;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.container-2 .img-container .img-box .img img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  cursor: pointer;
+}
+
+.container-2 .img-container .img-box .img .img-text {
+  margin-bottom: 1rem;
+}
+
+.container-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 5rme 10rem;
+}
+
+.container-3 .quote-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 75rem;
+}
+
+.container-3 .quote-box .quote-text {
+  font-size: 2.25rem;
+  font-style: italic;
+}
+
+.container-3 .quote-box .quote-sub-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.container-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 5rem;
+}
+
+.container-4 .bottom-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3882f6;
+  color: white;
+  padding: 1rem 10rem;
+  border-radius: 5px;
+  width: 80rem;
+}
+
+.container-4 .bottom-box p {
+  min-width: 25rem;
+  margin-bottom: 0.25rem;
+}
+
+.container-4 .bottom-box .call-text {
+  font-weight: bolder;
+}
+
+.container-4 .bottom-box button {
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 5rem;
+  height: 2rem;
+}
+
+.container-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1f2937;
+  color: white;
+  height: 3.5rem;
+}
+/*# sourceMappingURL=index.css.map */
